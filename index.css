@@ -1,0 +1,31 @@
+﻿html,body {
+	height: 100%;
+	margin: 0;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	
+	float: left;
+}
+#left {
+	margin-left: -100%;
+	float: left;
+	height: 100%;
+	width: 10%;
+	background: #0f0;
+}
+
+#right {
+	margin-left: -10%;
+	float: left;
+	width: 10%;
+	height: 100%;
+	background: #00f;
+}
+#body {
+	background: #f00;
+	margin: 0 10%;
+	height: 100%;
+}
